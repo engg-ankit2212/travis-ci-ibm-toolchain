@@ -3,4 +3,4 @@ arch: ppc64le
 group: dev
 script:
   - /opt/at14.0/bin/gcc hello_world.c -o hello_world
-  - ./hello_world
+  - ls
