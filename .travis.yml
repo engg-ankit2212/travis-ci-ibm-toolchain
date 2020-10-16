@@ -2,5 +2,5 @@ dist: focal
 arch: ppc64le
 group: dev
 script:
-  - cd /opt
+  - cd /opt/at14.0
   - ls
