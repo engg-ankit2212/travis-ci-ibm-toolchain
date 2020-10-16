@@ -3,5 +3,7 @@ arch: ppc64le
 group: dev
 script:
   - rm -rf hello_world
+  - ls
   - /usr/bin/gcc hello_world.c -o hello_world
+  - ls
   - ./hello_world
