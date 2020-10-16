@@ -2,4 +2,5 @@ dist: focal
 arch: ppc64le
 group: dev
 script:
-  - echo "ganesh"
+  - cd /opt
+  - ls
